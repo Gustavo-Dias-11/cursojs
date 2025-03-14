@@ -1,0 +1,96 @@
+.menu {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    border-radius: 10px;
+    justify-content: flex-end;
+    gap: 70px;
+    position: relative;
+    border: 3px solid rgb(83, 4, 4) ;
+    flex-wrap: wrap;
+
+}
+.a {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(83, 4, 4);
+}
+.b {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(83, 4, 4)
+}
+.c {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(83, 4, 4);
+}
+.kfc {
+    
+    height: 50px;
+    margin-top: 10px;
+}
+h1.t {
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: center;
+    flex-grow: 1;
+
+
+}
+strong {
+    color: rgb(83, 4, 4);
+    font-size: 30px;
+    margin-top: 15px;
+}
+.sobr {
+    background-color:  rgb(166, 16, 16);
+    height: 400px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    justify-content: flex-end;
+
+
+}
+.como {
+    font-size: 25px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.galinha {
+    width: 428px;
+    height: 286px;
+    margin-top: 115px;
+    
+}
+.gordoa {
+
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza em coluna (título em cima, texto abaixo) */
+    align-items: flex-start; /* Alinha à esquerda */
+    justify-content: center; /* Mantém os elementos centralizados verticalmente */
+    width: 50%; /* Define o espaço do texto */
+    padding: 20px; /* Dá um espaço interno para o texto */
+    color: rgb(255, 255, 255); /* Define a cor do texto */
+    background-color:  rgb(80, 4, 4);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+

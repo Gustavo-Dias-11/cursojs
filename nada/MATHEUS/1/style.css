@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+.botão {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(130, 101, 248);
+}
+#bot {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    font-size: 40px;
+}
+.vidro {
+    opacity: 30%;
+}

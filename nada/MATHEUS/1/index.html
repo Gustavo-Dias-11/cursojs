@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matheus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="botao">
+        <input type="button" value="matheus" id="bot">
+    </div>
+    <img src="vidro.png" alt="" class="vidro">
+    <script>
+        var bota = window.document.getElementById('bot')
+        bota.addEventListener('click', clicar)
+        bota.addEventListener('mouseenter', entrar)
+        bota.addEventListener('mouseout', sair)
+        function clicar(){ 
+        bota.style.backgroud = 'white'
+        
+        }
+            function entrar(){ 
+        bota.style.background = 'pink'
+
+        }
+            function sair(){ 
+        bota.style.background = 'rgb(130,101,248)'
+        
+        }
+    </script>
+</body>
+</html>

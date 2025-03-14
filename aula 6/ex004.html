@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal Arial bolder;
+            font-size: 40pt;
+            background-color: rgb(88, 145, 195);
+            line-height: 100px
+            ;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        var nome = window.prompt('Qual o seu nome?')
+        document.write(`Seu nome tem ${nome.length} letras <br/>`)
+        document.write(`Seu nome em maiusculo é ${nome.toUpperCase()} <br/>`)
+        document.write(`Seu nome em minusculas é ${nome.toLowerCase()} `)
+
+        /*
+         document.write - escreva no documento
+        */
+
+        /*          Formatando strings
+    var s = 'JavaScript'
+    s.length - conta caracteres da string
+    s.toUpperCase() - tudo para letras MAIÚSCULAS
+    s.toLowerCase() -  tudo para letras minúsculas
+    
+    */
+
+    /*          Mudando Numeros
+
+var n1 = 1545.5
+n1.toFixed(?) - ? é o numero de casas decimais que você quer 
+Ex:
+n1.toFixed(2)
+1545.50
+
+n1.toFixed(1).replace('?', '?') - .replace vai trocar o valor que você colocar nas (?)
+
+R: 1545,5
+
+n1 = 1545.50
+n1.tog(LocaleStrin'pt-br', {style:', currencycurrecy': 'BRL'}) 
+
+ // O método    toLocaleString() formata o número n1 como uma string de acordo com a localidade 'pt-br' (português do Brasil).
+
+ O parâmetro { style: 'currency', currency: 'BRL' } define que o número será exibido como uma moeda no formato Real (R$).
+
+ Resultado: R$ 1.545,50
+
+    */
+    </script>
+</body>
+</html>

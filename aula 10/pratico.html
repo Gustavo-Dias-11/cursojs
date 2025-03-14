@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #clique {
+        background-color: gray;
+        width: 250px;
+        height: 200px;
+        text-align: center;
+        line-height: 200px;
+        font-size: 40px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>contador de clicks</h1>
+    
+   <input type="button" id="clique">
+   <p id="contador"> contagem em :</p>
+    <script>
+    var a = window.document.getElementById('clique')
+    var d = window.document.getElementById('contador')
+    a.addEventListener('click', clicar)
+
+
+    function clicar(){
+    d.innerHTML = `contagem em: ${a += 1}` 
+        
+        
+    }
+    </script>
+</body>
+</html>

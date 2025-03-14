@@ -1,0 +1,44 @@
+body {
+    background-color: #a45903;
+
+}
+.login {
+    background-color: #ff8800;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+.titulo {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.pad{
+    padding-left: 100px ;
+    padding-bottom: 50px;
+
+}
+.senha{
+padding-left: 100px ;
+    padding-bottom: 0px;
+}
+#n {
+    height: 20px;
+    width: 200px;
+}
+#sen{
+height: 20px;
+    width: 200px;
+}
+.con {
+   padding-left: 160px ;
+    padding-top: 20px; 
+}
+#conf {
+    width: 80px;
+    height: 40px;
+    background-color: #de8e33;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login">
+    <h1 class="titulo">Login</h1>
+    <div class="pad">
+        <input type="text" id="n" placeholder="Nome de Usuario">
+    </div>
+    <div class="senha">
+        <input type="text" id="sen" placeholder="Senha">
+    </div>
+    <div class="con">
+        <input type="button" value="Confirmar" id="conf">
+
+    </div>
+        <h2 id="res">vehv</h2>
+    </div>
+
+    <script>
+        var nome = window.document.getElementById('n')
+        var senh = window.document.getElementById('sen')
+        var con = window.document.getElementById('conf')
+        var r = window.document.getElementById('res')
+        con.addEventListener('click', clicar)
+
+        function clicar(){
+            r.innerText = `ola ${nome.value} sua senha é ${senh.value}`
+        }
+    </script>
+</body>
+</html>

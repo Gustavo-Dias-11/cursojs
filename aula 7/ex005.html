@@ -28,43 +28,43 @@
     \/
 -------------------------------------------------------------------------------------------------------
         Atribuição simples
-    var a = 5 + 3       
-    R:8                
-                    [O simbolo "=" significa "recebe"]  
+    #var a = 5 + 3       
+    #R:8                
+                    #[O simbolo "=" significa "recebe"]  
 
-    var b = a - 5                        
-    R:3                           
-                    [O resultado da "var a" é 8 então o 8 fica guardado nela e eu posso usar a variavel a em uma operação como se fosse um numero]
+    #var b = a - 5                        
+    #R:3                           
+                    #[O resultado da "var a" é 8 então o 8 fica guardado nela e eu posso usar a variavel a em uma operação como se fosse um numero]
 
-    var c = 5 *b  ** 2 
-    R:45                
-                    [Na ordem de precedencia a potencia deve ser realizada aprimeiro nessa operação]
+    #var c = 5 *b  ** 2 
+    #R:45                
+                    #[Na ordem de precedencia a potencia deve ser realizada aprimeiro nessa operação]
 
-    var d = 10 - a / 2
-    R:6
-                    [Na ordem de precedencia a divisão de ser feita primeiro nessa operação]
+    #var d = 10 - a / 2
+   # R:6
+                    #[Na ordem de precedencia a divisão de ser feita primeiro nessa operação]
 
-    var e = 6 * 2 / d
-    R:2
-                    [Se as duas operações estam na mesma ordem de precedencia a operação deve ser feita normalmente da esquerda para direita]
+    #var e = 6 * 2 / d
+    #R:2
+                    #[Se as duas operações estam na mesma ordem de precedencia a operação deve ser feita normalmente da esquerda para direita]
 
-    var f = b % e + 4 / e
-    R:3 
- ------------------------------------------------------------------------------------------------------                   
-                    Auto-Atribuições
-            var n = 3
-            n = n + 4
-                        [Nesse caso o valor inicial da variavel n que é 3 passou a ser um 7]
+    #var f = b % e + 4 / e
+    #R:3 
+ #------------------------------------------------------------------------------------------------------                   
+                    #Auto-Atribuições
+           # var n = 3
+            #n = n + 4
+                        #[Nesse caso o valor inicial da variavel n que é 3 passou a ser um 7]
 
-            n = n - 5
-                        [Agora o valor deixou de ser 7 e virou 2]
+            #n = n - 5
+                        #[Agora o valor deixou de ser 7 e virou 2]
             
-            Como simplificar isso?
+            #Como simplificar isso?
 
-         |   n = n + 4   |   n = n - 4   |  n = n * 4  |  n = n / 4  ||  n = n % 4  ||  n = n ** 4  |
-         |     ||        |     ||        |     ||      |     ||      ||     ||      ||     ||       | 
-         |     \/        |     \/        |     \/      |     \/      ||     \/      ||     \/       | 
-         |    n += 4     |   n -=5       |   n *= 4    |    n /= 4   ||    n %= 4   ||    n **= 4   |
+         #|   n = n + 4   |   n = n - 4   |  n = n * 4  |  n = n / 4  ||  n = n % 4  ||  n = n ** 4  |
+         #|     ||        |     ||        |     ||      |     ||      ||     ||      ||     ||       | 
+         #|     \/        |     \/        |     \/      |     \/      ||     \/      ||     \/       | 
+         #|    n += 4     |   n -=5       |   n *= 4    |    n /= 4   ||    n %= 4   ||    n **= 4   |
 
     */
 
